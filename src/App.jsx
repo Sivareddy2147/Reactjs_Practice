@@ -1,10 +1,10 @@
 import "./App.css";
-import ToggleLight from "./ToggleLight.jsx";
+import Todolist from "./Todolist";
 function App() {
   return (
-    <div class="border border-2 border-danger p-2 m-3">
+    <div className="border border-2 border-danger p-2 m-3">
       <h2>Reactjs - Practice </h2>
-      <ToggleLight></ToggleLight>
+      <Todolist></Todolist>
     </div>
   );
 }
