@@ -1,10 +1,16 @@
 import "./App.css";
-import ToggleLight from "./ToggleLight.jsx";
+import Todos from "./Todos";
+import Students from "./students";
+import Employees from "./employees";
+import Products from "./products";
 function App() {
   return (
-    <div class="border border-2 border-danger p-2 m-3">
-      <h2>Reactjs - Practice </h2>
-      <ToggleLight></ToggleLight>
+    <div className="border border-2 border-danger p-2 m-3">
+      <h2>React.js-Practice</h2>
+      <Todos></Todos>
+      <Employees></Employees>
+      <Students></Students>
+      <Products></Products>
     </div>
   );
 }
